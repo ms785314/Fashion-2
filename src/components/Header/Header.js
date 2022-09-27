@@ -11,9 +11,9 @@ const Header = () => {
         <div>
             <nav className='flex justify-between sm:px-20 px-6 py-6 items-center'>
 
-                <div className="logo text-4xl  font-bold relative">
-                    <FontAwesomeIcon style={{ marginRight: '6px' }} icon={faShoppingBag}></FontAwesomeIcon>FASHion <span className='h-[10px] absolute opacity-90 right-0 bottom-0 w-[80%] inline-block z-[-1]' style={{backgroundColor:`${colorMain}`, borderRadius:'100% 0'}}></span></div>
-                <div className="links flex gap-6 text-4xl">
+                <div className="logo xxsm:text-4xl xxxsm:text-3xl text-xl font-bold relative">
+                    <FontAwesomeIcon style={{ marginRight: '6px' }} icon={faShoppingBag}></FontAwesomeIcon>FASHion <span className='h-[10px] absolute opacity-90 right-0 bottom-0 w-[80%] inline-block z-[-1]' style={{ backgroundColor: `${colorMain}`, borderRadius: '100% 0' }}></span></div>
+                <div className="links flex gap-6 xxsm:text-4xl xxxsm:text-3xl text-xl">
                     <Link to='/cart' className='relative text-gray-500'>
                         <span className='absolute h-[18px] w-[18px] rounded-[50%] text-white text-sm text-center right-[-5px] font-bold bg-red-500 top-[-5px] '>{itemsQuantity}</span>
                         <FontAwesomeIcon icon={faCartShopping}></FontAwesomeIcon>
