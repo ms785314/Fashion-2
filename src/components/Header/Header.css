@@ -1,3 +1,10 @@
 .links a :hover{
     color: black;
 }
+
+.toggle-links a{
+    font-size: 1.5rem;
+}
+.toggle-links a:hover{
+    transform: scale(0.9);
+}
