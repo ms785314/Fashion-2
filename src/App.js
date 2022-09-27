@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import Banner from "./components/Banner/Banner";
 import Header from "./components/Header/Header";
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <Routes>
-        <Route path="/" element></Route>
+        <Route path="/" element={<Banner></Banner>}></Route>
       </Routes>
     </div>
   );
