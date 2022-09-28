@@ -61,7 +61,7 @@ const Banner = () => {
             <div className='my-14'>
                 <Brands></Brands>
             </div>
-            <div className='px-16 my-10'>
+            <div className='px-16 my-10 relative'>
                 <h1 className='xxsm:text-4xl mb-4 uppercase font-bold relative inline-block'>Trendings <span className='h-[10px] absolute opacity-90 left-0 bottom-0 w-[100%] inline-block z-[-1]' style={{ backgroundColor: `${colorMain}`, borderRadius: '100% 0' }}></span></h1>
                 <div className='relative w-full'>
                     <div className='wrappers overflow-hidden relative mx-auto'>
@@ -69,6 +69,9 @@ const Banner = () => {
                         <FlickingComp array={products} position={position}></FlickingComp>
                         {/* <div className='wrapper2 h-[100%] w-[20%] right-0 bg-red-500 z-10 top-0 absolute'></div> */}
                     </div>
+                </div>
+                <div className='flex justify-end'>
+                    <Link to='/shop' className='p-1 xxsm:p-2 rounded text-white xxsm:text-xl hover:shadow-lg mt-6' style={{ backgroundColor: `${colorMain}` }}>Interested?</Link>
                 </div>
             </div>
         </div>
